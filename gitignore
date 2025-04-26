@@ -1,0 +1,55 @@
+# =========================
+# Unity + Windows + Visual Studio용 .gitignore
+# =========================
+
+# Unity 생성 폴더
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+sysinfo.txt
+
+# Unity Collaborate
+.collab/
+
+# Unity Asset Store Tools (사용하지 않는다면 무시)
+Assets/AssetStoreTools*
+
+# 빌드 아티팩트
+*.apk
+*.aab
+*.unitypackage
+
+# Visual Studio 관련
+*.sln
+*.csproj
+*.unityproj
+*.user
+*.userprefs
+*.suo
+*.tmp
+*.pidb
+*.booproj
+
+# VS Code 관련 (사용 시)
+.vscode/
+*.code-workspace
+
+# OS(Windows) 관련
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# 기타 임시 파일
+*.bak
+*.old
+*.orig
+*.swp
+*.~*
+~$*
+
+# JetBrains Rider 사용자용
+.idea/
