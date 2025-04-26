@@ -1,9 +1,0 @@
-# Unity YAML 설정 파일들 - 자동 merge 가능
-*.unity merge=unityyamlmerge eol=lf
-*.prefab merge=unityyamlmerge eol=lf
-*.asset merge=unityyamlmerge eol=lf
-*.mat merge=unityyamlmerge eol=lf
-*.anim merge=unityyamlmerge eol=lf
-
-# Windows 환경에서 줄 끝(EOL) 설정
-* text=auto eol=lf
